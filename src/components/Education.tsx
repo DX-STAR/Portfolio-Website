@@ -1,8 +1,8 @@
 import React from 'react';
 import { GraduationCap, Building, Calendar } from 'lucide-react';
-import TSECImage from '../Assets/TSEC_college_image.jpg';
-import MithibaiImage from '../Assets/Mithibai_College Image.png';
-import JankideviImage from '../Assets/jankidevi_public_school_logo.jpeg';
+import TSECImage from '/Assets/TSEC_college_image.jpg';
+import MithibaiImage from '/Assets/Mithibai_College Image.png';
+import JankideviImage from '/Assets/jankidevi_public_school_logo.jpeg';
 
 const educationData = [
   {
@@ -23,7 +23,7 @@ const educationData = [
     institution: 'Jankidevi Public School',
     degree: 'Secondary School',
     period: '2007 - 2019',
-    description: 'Completed SSC with distinction',
+    description: 'Completed ICSE with distinction',
     image: JankideviImage
   }
 ];

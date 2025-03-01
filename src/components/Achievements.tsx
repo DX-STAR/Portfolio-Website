@@ -6,37 +6,37 @@ const achievements = [
     title: 'CodeStorm Hackathon',
     description: 'Developed an innovative AI solution for detecting phishing domain detection tool',
     date: 'October 2023',
-    image: 'src/Assets/Certificates/CodeStorm_Hackathon.jpg'
+    image: '/Certificates/CodeStorm_Hackathon.jpg'
   },  
   {
     title: 'General Body Member in Rotaract Club',
     description: 'Served as a general body member in the Rotaract Club of my college, Engaging in various social activities',
     date: '2023',
-    image: 'src/Assets/Certificates/1st year RC Certificate.png'
+    image: '/Certificates/1st year RC Certificate.png'
   },
   {
     title: 'Google Certification',
     description: 'The Fudamentals of Digital Marketing',
     date: '2020',
-    image: 'src/Assets/Certificates/Google Marketing Certificate.png'
+    image: '/Certificates/Google Marketing Certificate.png'
   },
   {
     title: 'Need for Code 2.0 Hackathon',
     description: 'Developed a Website to help people in finding College Scholarships nationwide using HTML, CSS, and JavaScript',
     date: '2023',
-    image: 'src/Assets/Certificates/tantra Hackathon_.jpg'
+    image: '/Certificates/tantra Hackathon_.jpg'
   },
   {
     title: 'Marketing Team Member in CSI-TSEC',
     description: 'Served as a member of the Marketing Team in the Computer Society of India, TSEC working on raising funds and bringing sponsors for the events',
     date: '2023',
-    image: 'src/Assets/Certificates/CSI-JCOM Certificate Devang Gupta_page-0001.jpg'
+    image: '/Certificates/CSI-JCOM Certificate Devang Gupta_page-0001.jpg'
   },
   {
     title: 'TCS Certification',
     description: 'Completed the "Master Data Management for Beginners" certification from TCS iON! This course has enhanced my understanding of the core concepts and significance of Data Management Systems and The fundamentals and importance of Master Data Management (MDM)',
     date: '2024',
-    image: 'src/Assets/Certificates/Devang_Gupta_Data Analyst Certificate_page-0001.jpg'
+    image: '/Certificates/Devang_Gupta_Data Analyst Certificate_page-0001.jpg'
   }
 ];
 
