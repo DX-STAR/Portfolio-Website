@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/DX-STAR/Portfolio-Website.git",
+  // "homepage": "https://github.com/DX-STAR/Portfolio-Website.git", only require for github pages
   "name": "vite-react-typescript-starter",
   "private": true,
   "version": "0.0.0",
