@@ -45,8 +45,8 @@ const Hero = () => {
             href="#about"
             className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-full text-white bg-yellow-500 hover:bg-yellow-600 dark:bg-yellow-600 dark:hover:bg-yellow-700 transition-colors duration-300"
           >
-            About Me
             {/* Explore My Work */}
+            About Me
             <ArrowRight className="ml-2 w-5 h-5" />
           </a>
         </div>
