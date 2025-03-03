@@ -15,14 +15,14 @@ const BuyMeCoffee = ({ setIsOpen }: { setIsOpen: React.Dispatch<React.SetStateAc
 
         {/* Coffee GIF & QR Code */}
         <div className="text-center">
-          <img src="public\Assets\Support Me Sticker by Buy Me a Coffee.gif" alt="Coffee GIF" className="w-32 mx-auto mb-4" />
+          <img src="/Assets/Support Me Sticker by Buy Me a Coffee.gif" alt="Coffee GIF" className="w-32 mx-auto mb-4" />
           <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">
             Buy Me a Coffee! ☕
           </h2>
           <p className="text-gray-600 dark:text-gray-300 mb-4">
             Scan the QR code below to support my work.
           </p>
-          <img src="public\Assets\qrcode.jpg" alt="QR Code" className="w-48 mx-auto rounded-lg shadow-lg" />
+          <img src="/Assets/qrcode.jpg" alt="QR Code" className="w-48 mx-auto rounded-lg shadow-lg" />
         </div>
       </div>
     </div>
