@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 const techStack = [
   { name: "C Programming", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" },
-  { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
   { name: "C++", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
+  { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
   { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
   { name: "HTML5", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
   { name: "CSS3", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
@@ -15,10 +15,10 @@ const techStack = [
   { name: "Express.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
   { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
   { name: "SQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-  { name: "Object-Oriented Programming", icon: "public/Assets/OOPs.png" },
+  { name: "Object-Oriented Programming", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
   { name: "Data Structures & Algorithms", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
-  { name: "Artificial Intelligence", icon: "public/Assets/AI.png" },
-  { name: "Machine Learning", icon: "public/Assets/ML.png" },
+  { name: "Artificial Intelligence", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+  { name: "Machine Learning", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
   { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
   { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
 ];
@@ -26,7 +26,7 @@ const techStack = [
 const TechStackDisplay = () => {
   return (
     <div className="flex flex-col items-center bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white min-h-screen p-8 overflow-hidden">
-      <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">Technologies I Work With</h2>
+      <h1 className="text-4xl font-extrabold text-yellow-500 mb-6">Technologies I Work With</h1>
       <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl text-center mb-8">
         A blend of programming languages, frameworks, and databases that help me craft high-quality applications and solve complex problems.
       </p>
@@ -35,7 +35,7 @@ const TechStackDisplay = () => {
         <motion.div
           className="flex w-max"
           animate={{ x: ["0%", "-50%"] }}
-          transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
+          transition={{ repeat: Infinity, duration: 12, ease: "linear" }}
           style={{ display: "flex", whiteSpace: "nowrap" }}
         >
           {[...techStack, ...techStack].map((tech, index) => (
@@ -53,7 +53,7 @@ const TechStackDisplay = () => {
         <motion.div
           className="flex w-max"
           animate={{ x: ["-50%", "0%"] }}
-          transition={{ repeat: Infinity, duration: 20, ease: "linear" }}
+          transition={{ repeat: Infinity, duration: 12, ease: "linear" }}
           style={{ display: "flex", whiteSpace: "nowrap" }}
         >
           {[...techStack, ...techStack].map((tech, index) => (

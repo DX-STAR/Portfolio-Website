@@ -16,7 +16,7 @@ const educationData = [
     institution: 'Mithibai College',
     degree: 'Junior College - Science',
     period: '2020 - 2022',
-    description: 'Completed HSC with focus on Physics, Chemistry, and Mathematics',
+    description: 'Completed HSC with focus on Physics, Chemistry, Mathematics and Psychology',
     image: MithibaiImage
   },
   {
