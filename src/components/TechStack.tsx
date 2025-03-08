@@ -15,10 +15,10 @@ const techStack = [
   { name: "Express.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
   { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
   { name: "SQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-  { name: "Object-Oriented Programming", icon: "public/Assets/OOPs.png" },
+  { name: "Object-Oriented Programming", icon: "/Assets/OOPs.png" },
   { name: "Data Structures & Algorithms", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
-  { name: "Artificial Intelligence", icon: "public/Assets/AI.png" },
-  { name: "Machine Learning", icon: "public/Assets/ML.png" },
+  { name: "Artificial Intelligence", icon: "/Assets/AI.png" },
+  { name: "Machine Learning", icon: "/Assets/ML.png" },
   { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
   { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
 ];
