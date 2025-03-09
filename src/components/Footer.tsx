@@ -36,16 +36,16 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">Connect with Me</h3>
               <div className="flex space-x-4">
-                <a href="https://github.com" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-400 transition-colors duration-200">
+                <a href="https://github.com/DX-STAR" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-400 transition-colors duration-200">
                   <Github className="w-6 h-6" />
                 </a>
-                <a href="https://linkedin.com" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-400 transition-colors duration-200">
+                <a href="https://www.linkedin.com/in/devanggupta21/" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-400 transition-colors duration-200">
                   <Linkedin className="w-6 h-6" />
                 </a>
-                <a href="mailto:example@example.com" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-400 transition-colors duration-200">
+                <a href="mailto:devanggupta21@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-400 transition-colors duration-200">
                   <Mail className="w-6 h-6" />
                 </a>
-                <a href="https://twitter.com" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-400 transition-colors duration-200">
+                <a href="https://x.com/Devang_Gupta_" className="text-gray-600 dark:text-gray-300 hover:text-yellow-500 dark:hover:text-yellow-400 transition-colors duration-200">
                   <Twitter className="w-6 h-6" />
                 </a>
               </div>
